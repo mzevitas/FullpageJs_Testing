@@ -1,0 +1,71 @@
+.section {
+    background-size: cover
+}
+
+#section1 {
+    background-image: url("http://www.contactvirginmedia.com/wp-content/uploads/2013/05/virgin-media-business.jpg")
+}
+
+#section4 {
+    background-image: url("http://www.contactvirginmedia.com/wp-content/uploads/2013/05/virgin-media-business.jpg")
+}
+
+.formWrapper {
+    margin: 0 auto
+}
+
+#fixedForm {
+    z-index: 100;
+    position: fixed;
+    width: 200px;
+    border: 1px solid black;
+    margin: 0;
+    bottom: 4%;
+    left: 35%;
+    padding: 50px;
+    background-color: whitesmoke
+}
+
+.question1 {
+    float: left;
+    width: 40%;
+    margin: 50px auto;
+    padding: 10px;
+    text-align: center
+}
+
+.answer1 {
+    margin: 50px auto;
+    float: right;
+    width: 40%;
+    padding: 10px;
+    text-align: center
+}
+
+.fp-tableCell {
+    vertical-align: top
+}
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 5px;
+    border: 2px solid #000;
+    background: 0 0;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    opacity: .3;
+    filter: alpha(Opacity=30);
+    transition: opacity .2s ease, background .2s ease
+}
+
+#fp-nav ul li a.active span {
+    background: #fff;
+    opacity: 1;
+    margin: -2px 0 0 -3px;
+    width: 7px;
+    height: 7px
+}

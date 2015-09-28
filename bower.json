@@ -1,0 +1,11 @@
+{
+  "name": "parallax-panel",
+  "private": true,
+  "dependencies": {
+    "fullpage.js": "~2.7.2",
+    "jquery": "~2.1.1",
+    "jquery-ui": "~1.11.4",
+    "normalize-css": "~3.0.1",
+    "underscore": "~1.6.0"
+  }
+}

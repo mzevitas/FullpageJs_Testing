@@ -1,0 +1,139 @@
+
+.section {
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+}
+
+#section1 {
+	background-image: url('http://www.contactvirginmedia.com/wp-content/uploads/2013/05/virgin-media-business.jpg');
+}
+#section2 {
+
+}
+#section3 {
+
+}
+#section4 {
+	background-image: url('http://www.contactvirginmedia.com/wp-content/uploads/2013/05/virgin-media-business.jpg');
+}
+#section5 {
+
+}
+#section6{
+
+}
+
+.formWrapper {
+	margin:0 auto;
+}
+#fixedForm {
+	z-index: 100;
+	position: fixed;
+	width: 200px; 
+	border: 1px solid black;
+	bottom: 4%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 50px;
+	background-color: whitesmoke;
+}
+
+.question1 {
+	float: left;
+	width:40%;
+	margin:50px auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.answer1 {
+	margin: 50px auto;
+	float: right;
+	width:40%;
+	padding: 10px;
+	text-align: center;
+}
+
+.fp-tableCell {
+	vertical-align: top;
+}
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	top: 2px;
+    left: 2px;
+    width: 5px;
+    height: 5px;
+    border: 2px solid #000;
+    background: 0 0;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    opacity: .3;
+    filter: alpha(Opacity=30);
+    transition: opacity .2s ease,background .2s ease;
+}
+
+#fp-nav ul li a.active span {
+	background: #fff;
+    opacity: 1;
+    margin: -2px 0 0 -3px;
+    width: 7px;
+	height: 7px;
+}
+
+.img1 {
+	position: absolute;
+	bottom: -400px; 
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	transition: all 1.1s ease-out;
+	-webkit-transition:all 1.1s ease-out;
+	
+}
+.img2 {
+	position: absolute;
+	bottom: -400px; 
+	margin-left: 10px;
+	transition: all 1.1s ease-out;
+	-webkit-transition:all 1.1s ease-out;
+}
+.img3 {
+	position: absolute;
+	bottom: -400px; 
+	left:0;
+	right:0;
+	margin: 0 auto;
+	transition: all 1.1s ease-out;
+	-webkit-transition:all 1.1s ease-out;
+}
+.img4 {
+	position: absolute;
+	bottom: -400px; 
+	left: 85%;
+
+	margin:0 auto;
+	transition: all 1.1s ease-out;
+	-webkit-transition:all 1.1s ease-out;
+}
+
+.fp-viewing-fourthPage .img1{
+	bottom: 10%;
+}
+
+.fp-viewing-fourthPage .img2{
+	bottom: 41%;
+}
+.fp-viewing-fourthPage .img3{
+	bottom: 70%;
+}
+
+.fp-viewing-fourthPage .img4{
+	bottom: 41%;
+}
+
