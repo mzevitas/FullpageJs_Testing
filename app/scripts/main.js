@@ -1,9 +1,9 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
-        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage'],
+        anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'fifthPage', 'sixthPage'],
          menu: '#myMenu',
          menu: true,
-         sectionsColor: ['', '#4BBFC3', '#7BAABE', 'whitesmoke', '#fff'],
+         sectionsColor: ['', '', '', '', '#bc357b', '#000'],
          navigation: true,
 		css3: true,
 		scrollingSpeed: 1000,
