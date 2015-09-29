@@ -5,10 +5,14 @@
   -o-background-size: cover;
   background-size: cover;
   position:relative;
+
 }
 
 #section1 {
-	background-image: url('http://www.contactvirginmedia.com/wp-content/uploads/2013/05/virgin-media-business.jpg');
+	background-image: url('/images/Q1.png');
+	box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+
+
 }
 #section2 {
 
@@ -32,22 +36,88 @@
 #fixedForm {
 	z-index: 100;
 	position: fixed;
-	width: 200px; 
-	border: 1px solid black;
+	width: 720px; 
+	// height: 374px;
 	bottom: 4%;
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	padding: 50px;
-	background-color: whitesmoke;
+	padding: 10px;
+	padding-left: 18px;
+	padding-bottom: 0;
+	background-color: hsla(220,14%,4%,0.7);
+	
+	h3 {
+		color: #3678ba;
+		text-align: center;
+		font-size: 1.6em;
+		font-weight: 200;
+	}
+
+	input{
+		left:0;
+		right: 0;
+		margin: 0 3px 10px 0;
+		width: 46%;
+		padding-left:15px;
+		height: 32px;
+	}
+
+	textarea {
+
+		width: 96.5%;
+		height: 109px;
+		padding-left:15px;
+		padding-top: 8px;
+
+	}
+
+	h4 {
+	display: inline-block;
+	color: #b2b2b2;
+	font-size: 1.3rem;
+	margin-top:20px;
+	margin-left: 4px;
+	font-weight: 200;
+
+	}
+
+	button {
+		color: #fff;
+		background-color: #3075ba;
+		float: right;
+		border: none;
+		padding: 10px;
+		margin-top:10px;
+		margin-right:10px;
+
+	}
 }
+
+
 
 .question1 {
 	float: left;
-	width:40%;
-	margin:50px auto;
-	padding: 10px;
-	text-align: center;
+	width:35%;
+	margin:150px 10% 0 10%;
+
+	color: #fff;
+	text-align: left;
+
+
+	h4 {
+		font-size: 1.8em;
+		margin: 0;
+		font-weight: 200;
+	}
+
+	h3 {
+		font-size: 3.3em;
+		margin: 0;
+		font-weight: 500;
+
+
+	}
 }
 
 .answer1 {
@@ -68,7 +138,7 @@
     left: 2px;
     width: 5px;
     height: 5px;
-    border: 2px solid #000;
+    border: 2px solid #a0a6ad;
     background: 0 0;
     border-radius: 50%;
     position: absolute;
@@ -79,7 +149,7 @@
 }
 
 #fp-nav ul li a.active span {
-	background: #fff;
+	background: #377abb;
     opacity: 1;
     margin: -2px 0 0 -3px;
     width: 7px;

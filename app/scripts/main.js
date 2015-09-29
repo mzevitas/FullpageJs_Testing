@@ -6,7 +6,7 @@ $(document).ready(function() {
          sectionsColor: ['', '#4BBFC3', '#7BAABE', 'whitesmoke', '#fff'],
          navigation: true,
 		css3: true,
-		scrollingSpeed: 600,
+		scrollingSpeed: 1000,
 		scrollOverflow: true,
 
 
@@ -15,7 +15,7 @@ $(document).ready(function() {
                $('#fixedForm').hide("slide", { direction: "up" }, 100);
           }
           else {
-          	$('#fixedForm').show("slide", { direction: "left" }, 1000);
+          	$('#fixedForm').show("slide", { direction: "down" }, 800);
           }
       }
 
