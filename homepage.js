@@ -12,7 +12,7 @@ $(document).ready(function() {
 
          onLeave: function(anchor, index){
           if(index > 3){
-               $('#fixedForm').hide("slide", { direction: "up" }, 100);
+               $('#fixedForm').hide("slide", { direction: "up" }, 300);
           }
           else {
             $('#fixedForm').show("slide", { direction: "down" }, 800);
